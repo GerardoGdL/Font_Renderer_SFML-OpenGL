@@ -20,8 +20,8 @@ public:
     Triangle(const std::vector<sf::Vector2f>& points) : vertices(points) 
     {
         if (!triShader.loadFromFile(
-            "../../src/triangle.vert", 
-            "../../src/triangle.frag") ) {
+            "src/triangle.vert", 
+            "src/triangle.frag") ) {
                 std::cerr << "Failed to load shader for triangle " << std::endl;
             }
     }
