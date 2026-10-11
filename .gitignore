@@ -5,5 +5,5 @@ out
 .vs
 .vscode
 
-Fonts/
+Fonts/*
 !Fonts/.gitkeep
